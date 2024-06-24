@@ -66,8 +66,7 @@
 
                     //show progress percent
                     document.getElementById("progress").style.visibility = "visible";
-                    //set progress to 0%
-                    prog = 0;
+
                 })
 
 
@@ -165,6 +164,7 @@
                     // Reset analysis progress
                     document.getElementById("progress").style.visibility = "hidden";
                     prog = 0;
+                    document.getElementById("prog_percent").innerHTML = prog.toString();
 
                 });
 
